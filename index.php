@@ -69,7 +69,7 @@ if (isset($_GET['view']) && isset($articles[$_GET['view']])) {
 }
 ?>
 </div>
-<div class="flex m-5">
+<div class="flex flex-wrap m-5">
 <?php
 # Si aucun article n'a été séléctionné, on les liste tous.
 if (!isset($_GET['view']) && !isset($_GET['edit'])) {
